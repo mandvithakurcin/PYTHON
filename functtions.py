@@ -30,10 +30,10 @@ def myfunc():
 myfunc()
 print("x with value {0} is global ".format(x))
 
-x = "sanskar"
+x = "mandvi"
 def myfunc():
     global x   
-    x = "Sanskar Bandi" 
+    x = "mandvi thakur" 
     print("x with value {0} is also accessing global variable here ".format(x))
 
 myfunc()
