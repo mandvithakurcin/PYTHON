@@ -25,16 +25,16 @@ def fact(n):
 x = "good" 
 def myfunc():
   x = "vgood" 
-  print("x with value {0} is local here ".format(x))
+  print("x  local ".format(x))
 
 myfunc()
-print("x with value {0} is global ".format(x))
+print("x global ".format(x))
 
 x = "mandvi"
 def myfunc():
     global x   
     x = "mandvi thakur" 
-    print("x global ".format(x))
+    print("x local ".format(x))
 
 myfunc()
-print("x with value {0} is global ".format(x))
+print("x  global ".format(x))
