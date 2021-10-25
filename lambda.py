@@ -11,8 +11,8 @@ print(x)
 #use of lambda function
 list_1 = [1,2,3,4,5]
 
-filter( lambda x: x%2==0 , list_1 )
-print( list( filter( lambda x: x%2==0 , list_1 )))
+filter( lambda x: x**2==0 , list_1 )
+print( list( filter( lambda x: x**2==0 , list_1 )))
 
 #list lambda
 name=["mandvi","veli","shruti","Jay"]
