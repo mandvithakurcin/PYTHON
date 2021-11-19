@@ -1,5 +1,4 @@
 #1.Display float number with 2 decimal places using print()
-
 float= 2.12344
 format_float = "{:.2f}".format(float)
 print(format_float)
@@ -454,7 +453,7 @@ if num > 1:
 else:
     print(num, "is not a prime number")
 
- 11 is a prime number
+ #2 is a prime number
 
 
 #30)Print downward Half-Pyramid Pattern with Star (asterisk)
@@ -468,7 +467,7 @@ for i in range(rows + 1, 0, -1):
     for j in range(0, i - 1):  
         print("*", end=' ')  
     print(" ")
-    * * * * *  
+* * * * *  
 * * * *  
 * * *  
 * *  
@@ -533,7 +532,7 @@ for i in range(1,9+1):
 
 for i in range(8):    
       print((chr(65+i)+"")*(i+1))
-    A
+A
 BB
 CCC
 DDDD
@@ -543,9 +542,9 @@ GGGGGGG
 HHHHHHHH
 
 #34)Write a Python program to calculate the length of a given string.
-str = "shruti"
+str = "mandvi"
 print(len(str))
-6
+#6
 
 
 #35.Write a Python program to get a single string from two given strings, separated by a space and swap the first characters of each string.
@@ -562,10 +561,10 @@ str2=str2.replace(str2[0:1],x)
 
 print("Your first string has become :- ",str1)
 print("Your second string has become :- ",str2)
-Please Enter First String : shruti
-Please Enter Second String : tiwari
-Your first string has become :-  thruti
-Your second string has become :-  siwari
+# Please Enter First String : mandvi
+# Please Enter Second String : thakur
+# Your first string has become :-  tandvi
+# Your second string has become :-  mhakur
 
 
   #36. Write a Python program to add 'polis' at the end of a given string (length should be at least 3).
@@ -589,9 +588,9 @@ def add_string(str1):
 print(add_string('ab'))
 print(add_string('abc'))
 print(add_string('Acropolis'))
-ab
-abcpolis
-AcropolisCSIT
+# ab
+# abcpolis
+# AcropolisCSIT
 
 
 #37)Write a Python program to count the number of characters (character frequency) in a string. 
@@ -637,9 +636,9 @@ yhn
 str1=input("enter string :")
 print("in upper :" ,str1.upper())
 print("in lower :" ,str1.lower())
-enter string :SHruti
-in upper : SHRUTI
-in lower : shruti
+# enter string :Mandvi
+# in upper : MANDVI
+# in lower : mandvi
 
 
 #41)Write a Python program to count occurrences of a substring in a string.
@@ -647,13 +646,13 @@ str1 = 'school collage school'
 print()
 print(str1.count("school"))
 print()  
-2
+# 2
 
 
 #42)Write a Python program to lowercase first n characters in a string.
 str1 = 'ACROPOLIS'
 print(str1[:4].lower() + str1[4:])
-acroPOLIS
+# acroPOLIS
 
 
 #43)Write a Python program to remove spaces from a given string.
@@ -662,9 +661,9 @@ def remove_spaces(str1):
   return str1
 
 print(remove_spaces("A c r o p o l i s"))
-print(remove_spaces("S H R U T I "))
-Acropolis
-SHRUTI
+print(remove_spaces("M A N D V I "))
+# Acropolis
+# MANDVI
 
 
 #44)Write a Python program to move spaces to the front of a given string.
@@ -677,8 +676,8 @@ def move_Spaces_front(str1):
 
 print(move_Spaces_front("Acropolis    Collage  "))
 print(move_Spaces_front("CSIT         Branch "))
-"      AcropolisCollage"
-"          CSITBranch"
+# "      AcropolisCollage"
+# "          CSITBranch"
 
 
 #45)Write a Python program to find the maximum occurring character in a given string.
@@ -697,10 +696,9 @@ def get_max_occuring_char(str1):
   return ch
 
 print(get_max_occuring_char("Acropolis"))
-print(get_max_occuring_char("Shruti"))
-o
-S
-
+print(get_max_occuring_char("mandvi"))
+# o
+# m
 
 #46)Write a Python program to capitalize first and last letters of each word of a given string.
 def capitalize_first_last_letters(str1):
@@ -711,7 +709,7 @@ def capitalize_first_last_letters(str1):
      return result[:-1]  
 
 print(capitalize_first_last_letters("acropolis"))
-print(capitalize_first_last_letters("Shruti"))
+print(capitalize_first_last_letters("mandvi"))
 AcropoliS
 ShrutI
 
@@ -726,7 +724,7 @@ def sum_digits_string(str1):
 
     return sum_digit
 
-print(sum_digits_string("Acropolis596CI"))
+print(sum_digits_string("AcrO596CI"))
 print(sum_digits_string("CS35IT"))
 20
 8
@@ -738,11 +736,11 @@ def find_longest_word(words_list):
         word_len.append((len(n), n))
     word_len.sort()
     return word_len[-1][0], word_len[-1][1]
-result = find_longest_word(["CS", "ACROPOLIS", "CSIT"])
+result = find_longest_word(["MT", "MANDVITHAKUR", "mandvi"])
 print("\nLongest word: ",result[1])
 print("Length of the longest word: ",result[0])
-Longest word:  ACROPOLIS
-Length of the longest word:  9
+# Longest word:  MANDVITHAKUR
+# Length of the longest word:  12
 
 
   #49.Write a function x(n) for computing an element in the sequence xn=n^2+1. Call the function for n=4 and write out the result.
@@ -872,8 +870,8 @@ else:
 
 
 #58. Write a Python function that checks whether a passed interger is armstrong or not.
-
-n = int(input("Enter a number: "))
+    #Armstrong number is a number that is equal to the sum of cubes of its digits. for example - 153= 1^3 + 5^3 + 3^3 = 1+125+27=153
+ n = int(input("Enter a number: "))
 
 def armstrong(num):
   sum = 0
@@ -889,8 +887,8 @@ if n == summ:
    print(n,"is an Armstrong number")
 else:
    print(n,"is not an Armstrong number")
-    Enter a number: 407
-407 is an Armstrong number
+    Enter a number: 153
+#153 is an Armstrong number
 
 
 #59. Program to return a function from another function.
@@ -905,8 +903,8 @@ def A():
 returned_function = A()
 
 returned_function()
-Inside the method A.
-Inside the method B.
+# Inside the method A.
+# Inside the method B.
 
 #60. First, def a function, start_process, that takes one argument p. Then, if the start_process function receives an p equal to "Yes",
 # it should return "Start Process" Alternatively, elif p is equal to "No", then the function should return "Start Process Aborted".
@@ -922,36 +920,36 @@ def start_process(p):
 
 command= input("Enter a command: ")
 print(start_process(command))
-Enter a command: Yes
-Start Process
+# Enter a command: Yes
+# Start Process
 
 
 #61. First, def a function called calculate_distance, with one argument (choose any argument name you like).
 #   If the type of the argument is either int or float, the function should return the absolute value of the function input.
 #   Otherwise, the function should return "No value". Check if it works calling the function with  9.6 and "what?".
 
-def calculate_distance(argument):
-  if type(argument) == int or type(argument) == float:
-      return abs(argument)
+def calculate_distance(arg):
+  if type(arg) == int or type(arg) == float:
+      return abs(arg)
   else:
       print("No value")
 
 print("the absolute value : " ,calculate_distance(33.20))
 
 calculate_distance("what?")
-the absolute value :  33.2
-No value
+# the absolute value :  33.2
+# No value
 
 
 #62.Python program to display the sum of input (n) numbers using a list.
-
-list1 = [11, 5, 17, 18, 23]
+#using for loop with range() aleternative method - sum()
+list1 = [5,10,15,20]
 total=0
 for i in range(0, len(list1)):
     total = total + list1[i]
 
 print("Sum of all elements in given list: ", total)
-Sum of all elements in given list:  74
+#Sum of all elements in given list:  50
 
 
   #63)Python program to insert a number to given position in a list.
@@ -1068,8 +1066,8 @@ Enter 10 Elements:
 55
 
 Enter the Value to Delete: 
-76
-['3', '4', '6', '9', '23', '65', '41', '54', '55']
+9
+['3', '4', '6', '76', '23', '65', '41', '54', '55']
 
 
 
