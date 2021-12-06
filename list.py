@@ -50,7 +50,16 @@ list = ['a','h','l','k','v','i']
 list.append(r)
 print(r)
 
+# extend lists 
+list1.extend([1,2,3])
+print (list1)
+#['a','h','l','k','v','i',1,2,3]
 
+
+print(["mandvi"]*3)
+['mandvi', 'mandvi', 'mandvi']
+list1.insert(3,"mandvi thakur")
+list1 ['a','h','l','mandvi thakur','k','v','i',1,2,3]
 
 
 
