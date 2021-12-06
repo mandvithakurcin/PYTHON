@@ -44,3 +44,23 @@ tuple = (22,33,44,55,66,77)
 print(tuple)
 del tuple
 
+thistuple=('m','a','n','d','v','i')
+print(thistuple)
+print(thistuple.count('A'))
+print(thistuple.count('y'))
+print(thistuple.index('A'))
+print('a' in thistuple)
+print('z' in thistuple)
+for m in ('mandvi','priya'):
+    print('hello',m)
+a=(6,8,9)
+for n in a:
+    print(2*n)
+b=[5,9,4]
+b.sort()
+print(b)
+b=sorted(a)
+a=(6,3,7)
+b=sorted(a)
+print(b)
+print(a)
